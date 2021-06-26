@@ -9,12 +9,12 @@ public class Main {
         list.addLast(10);
         list.addLast(20);
         list.addLast(30);
-        list.addFirst(40);
 //        System.out.println(list.indexOf(300));
 //        list.removeFirst();
 //        list.removeLast();
 //        System.out.println(list.size());
 //        System.out.println(list.contains(10));
+        list.reverse();
         System.out.println(Arrays.toString(list.toArray()));
       }
 }
