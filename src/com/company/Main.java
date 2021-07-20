@@ -5,8 +5,15 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-       String  str = "({1+2}";
-       Expression exp = new Expression(str);
-        System.out.println(exp.isBalanced());
-      }
+        Stack stack = new Stack();
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        System.out.println(stack.peek());
+        System.out.println(stack);
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        System.out.println(stack);
+    }
 }
